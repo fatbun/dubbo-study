@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: provider
+
+dubbo:
+  protocol:
+    name: dubbo
+    host: 192.168.101.95
+  registry:
+    address: zookeeper://192.168.101.95:2181
+
